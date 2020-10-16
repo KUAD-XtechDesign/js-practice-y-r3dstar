@@ -5,7 +5,7 @@ $(function(){
     let num01 = 100;
     let num02 = 2000;
     //""で囲むと文字として扱われる 数字として(数値)使いたいときは不要
-    
+
     $("#button01").on("click",function(){
         $("#content").text("こんにちは");
     })
