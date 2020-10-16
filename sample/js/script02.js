@@ -25,5 +25,5 @@ $(function(){
     $('#button05').on("click",function(){
         $("#content").text(num01 + "x"  + num02  + "=" + (num01 * num02) );
     })
-
+    // + - * /
 })
