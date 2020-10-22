@@ -26,4 +26,7 @@ $(function(){
         $("#content").text(num01 + "x"  + num02  + "=" + (num01 * num02) );
     })
     // + - * /
+    $('#button06').on("click",function(){
+        $("#content").text(num01 + "÷"  + num02  + "=" + (num01 / num02) );
+    })
 })
